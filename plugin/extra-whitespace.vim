@@ -38,5 +38,5 @@ if version >= 702 && has('autocmd')
     endif
 
     au BufWinLeave * call clearmatches()
-  endif
+  aug END
 endif
